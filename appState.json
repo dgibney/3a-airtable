@@ -1,0 +1,103 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4b6ae51f-3e07-466b-b030-9aab1c0c8e92": {
+        "id": "4b6ae51f-3e07-466b-b030-9aab1c0c8e92",
+        "parent": null,
+        "name": "3a-airtable.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "3a-airtable.js",
+        "cursor": {
+          "lineNumber": 5,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "3aAirtable"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast13aAirtabletestget",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "63395350-88b6-4817-b23e-023fa064f2c3": {
+            "id": "63395350-88b6-4817-b23e-023fa064f2c3",
+            "name": "Test event",
+            "functionId": "4b6ae51f-3e07-466b-b030-9aab1c0c8e92",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "4b6ae51f-3e07-466b-b030-9aab1c0c8e92"
+    ],
+    "currentFileId": "4b6ae51f-3e07-466b-b030-9aab1c0c8e92",
+    "resources": {
+      "apigusEast13aAirtabletestget": {
+        "name": "apigusEast13aAirtabletestget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "3a-airtable",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test",
+          "resourcePath": "/test",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 0,
+          "stageName": "Prod",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "3a-airtable",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1588216489117
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "3a-airtable",
+      "url": "https://github.com/dgibney/3a-airtable"
+    }
+  }
+}
