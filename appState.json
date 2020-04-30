@@ -33,7 +33,7 @@
             "id": "63395350-88b6-4817-b23e-023fa064f2c3",
             "name": "Test event",
             "functionId": "4b6ae51f-3e07-466b-b030-9aab1c0c8e92",
-            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
             "eventTemplate": "hello-world"
           }
         }
@@ -65,8 +65,7 @@
       }
     },
     "customTemplate": {
-      "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -91,7 +90,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1588216489117
+    "lastSave": 1588217206727
   },
   "VCS_STATE": {
     "provider": "GitHub",
